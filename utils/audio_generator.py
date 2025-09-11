@@ -5,9 +5,9 @@ import pyttsx3
 engine = pyttsx3.init()
 engine.setProperty('rate', 150)  
 
-palabra = "cura"
+palabra = "anemia"
 texto = palabra
-path_audio = f"audio/espanol/{palabra}.mp3"
+path_audio = f"audio/español/{palabra}.mp3"
 
 print(f"Generando: {texto} → {path_audio}")
 engine.save_to_file(texto, path_audio)
